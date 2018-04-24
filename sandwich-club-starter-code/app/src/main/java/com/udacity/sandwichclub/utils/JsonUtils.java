@@ -12,6 +12,8 @@ import java.util.List;
 public class JsonUtils {
 
     public static Sandwich parseSandwichJson(String json) {
+        // used https://www.tutorialspoint.com/android/android_json_parser.htm
+        // as a reminder on how to do json parsing
         JSONObject sJson;
         try {
             sJson = new JSONObject(json);
